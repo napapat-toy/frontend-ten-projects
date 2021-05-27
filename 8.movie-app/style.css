@@ -1,5 +1,66 @@
-.title {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+nav {
+    height: 50px;
+    background: #333;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 16px;
+    position: fixed;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    margin-right: 16px;
+    font-family: sans-serif;
+}
+
+nav input[type="text"] {
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    height: 36px;
+    width: 250px;
+}
+
+main {
+    margin-top: 36px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.movie img {
+    height: 320px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.movie {
+    width: 250px;
+    margin: 24px;
+    background: red;
+    text-align: center;
+}
+
+.movie h2 {
+    font-family: sans-serif;
+    color: #fff;
 }
