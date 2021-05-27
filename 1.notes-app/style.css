@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(145, 131, 105);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    justify-content: center;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    width: 600px;
+    height: 300px;
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 17px;
+    box-shadow: 4px 4px 4px 4px rgb(70, 70, 70);
+}
+
+.text-area {
+    flex-direction: column;
+    max-width: 600px;
+    position: relative;
+}
+
+.color {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color label {
+    color: #fff;
+    font-size: 18px;
+}
+
+#color {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+input[type="color"] {
+    border: none;
+    outline: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#btn-add {
+    position: absolute;
+    right: 0px;
+    bottom: -15px;
+    border-radius: 40px;
+    padding: 16px;
+    width: 120px;
+    border: none;
+    outline: none;
+    background-color: rgb(99, 37, 161);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#btn-add:hover {
+    background-color: rgb(75, 75, 255);
+    cursor: pointer;
+}
+
+#size {
+    width: 40px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.notes {
+    margin-top: 40px;
+    width: 600px;
+    height: 100px;
+    position: relative;
+}
+
+.notes button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.box {
+    position: relative;
+    background-color: white;
+    height: auto;
+    padding: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    box-shadow: 4px 4px 4px 4px rgb(70, 70, 70);
+}
+
+.box p {
+    font-size: 17px;
+    font-family: sans-serif;
+}

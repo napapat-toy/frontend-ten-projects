@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Notes App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Notes App</h1>
+        <div class="text-area">
+            <textarea name="content" placeholder="Enter your note here..."></textarea>
+            <div class="color">
+                <label for="color">Pick a Color : </label>
+                <input type="color" name="color" id="color" value="#000">
+                <label for="size">Size : </label>
+                <input type="number" name="size" id="size" value="17">
+            </div>
+
+            <button id="btn-add">Add</button>
+        </div>
+        <div class="notes"></div>
+    </div>
+</body>
+<script src="notes-app.js"></script>
+
+</html>
