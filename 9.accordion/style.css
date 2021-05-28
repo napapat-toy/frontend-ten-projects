@@ -1,5 +1,55 @@
-.title {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    height: auto;
+    padding: 10px;
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.element {
+    background: #333;
+    color: #fff;
+    padding: 16px;
+    margin: 16px;
+    width: 600px;
+    border-radius: 8px;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+.question i {
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+.question button i {
+    font-size: 16px;
+}
+
+.hideText {
+    display: none;
 }
